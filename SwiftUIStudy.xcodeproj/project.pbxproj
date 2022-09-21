@@ -14,6 +14,9 @@
 		A434B3EC28DADC2B00F4271A /* SwiftUIStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434B3EB28DADC2B00F4271A /* SwiftUIStudyTests.swift */; };
 		A434B3F628DADC2B00F4271A /* SwiftUIStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434B3F528DADC2B00F4271A /* SwiftUIStudyUITests.swift */; };
 		A434B3F828DADC2B00F4271A /* SwiftUIStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434B3F728DADC2B00F4271A /* SwiftUIStudyUITestsLaunchTests.swift */; };
+		A434B40728DAF63000F4271A /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434B40628DAF63000F4271A /* ContentView2.swift */; };
+		A434B40928DAF92500F4271A /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434B40828DAF92500F4271A /* ContentView3.swift */; };
+		A434B40B28DB023E00F4271A /* ContentView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434B40A28DB023E00F4271A /* ContentView4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		A434B3D728DADC2900F4271A /* SwiftUIStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A434B3DA28DADC2900F4271A /* SwiftUIStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyApp.swift; sourceTree = "<group>"; };
-		A434B3DC28DADC2900F4271A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A434B3DC28DADC2900F4271A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		A434B3DE28DADC2B00F4271A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A434B3E128DADC2B00F4271A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A434B3E728DADC2B00F4271A /* SwiftUIStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		A434B3F128DADC2B00F4271A /* SwiftUIStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A434B3F528DADC2B00F4271A /* SwiftUIStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyUITests.swift; sourceTree = "<group>"; };
 		A434B3F728DADC2B00F4271A /* SwiftUIStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A434B40628DAF63000F4271A /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		A434B40828DAF92500F4271A /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
+		A434B40A28DB023E00F4271A /* ContentView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				A434B3DA28DADC2900F4271A /* SwiftUIStudyApp.swift */,
 				A434B3DC28DADC2900F4271A /* ContentView.swift */,
+				A434B40628DAF63000F4271A /* ContentView2.swift */,
+				A434B40828DAF92500F4271A /* ContentView3.swift */,
+				A434B40A28DB023E00F4271A /* ContentView4.swift */,
 				A434B3DE28DADC2B00F4271A /* Assets.xcassets */,
 				A434B3E028DADC2B00F4271A /* Preview Content */,
 			);
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A434B40728DAF63000F4271A /* ContentView2.swift in Sources */,
 				A434B3DD28DADC2900F4271A /* ContentView.swift in Sources */,
+				A434B40928DAF92500F4271A /* ContentView3.swift in Sources */,
+				A434B40B28DB023E00F4271A /* ContentView4.swift in Sources */,
 				A434B3DB28DADC2900F4271A /* SwiftUIStudyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
