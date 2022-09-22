@@ -16,6 +16,13 @@ struct ContentView: View {
         // vertical stackの略　縦置きのスタックビュー的イメージ この中にtextとbuttonを入れないと、同じ画面上に表示してくれないのでパーツを複数並べる際に使う
         VStack {
             Text(text)
+                .frame(maxWidth: .infinity)
+            // フォント変更
+                .font(.title)
+            // 背景色変更
+                .background(Color.cyan)
+            // 文字色変更を行うmodifier(.の後ろに書くものの総称)
+                .foregroundColor(Color.white)
             // 余白を設定する
                 .padding()
             Button("ボタン") {
@@ -26,7 +33,6 @@ struct ContentView: View {
     }
 }
 
-// プレビューで何をどのように表示するか？を書く
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

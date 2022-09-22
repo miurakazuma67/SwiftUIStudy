@@ -14,13 +14,11 @@ struct ContentView2: View {
 
    var body: some View {
        // vertical stackの略　縦置きのスタックビュー的イメージ この中にtextとbuttonを入れないと、同じ画面上に表示してくれないのでパーツを複数並べる際に使う
-       VStack {
-           Text(text)
-           // Spacer -> いっぱいの余白的イメージ 下に置いたら真下まで広がり、上に配置したら真上まで広がる
-           // Spacer()
-           // 画像 Image("画像名")で表示できる
            Image("チルット")
-       }
+           // 画面いっぱいに表示
+               .resizable()
+           // 縦横比が保たれたまま拡大してくれる
+               .aspectRatio(contentMode: .fit)
    }
 }
 
