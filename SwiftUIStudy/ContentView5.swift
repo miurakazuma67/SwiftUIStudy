@@ -19,7 +19,7 @@ struct ContentView5: View {
     var body: some View {
         ZStack {
             // こっちが先、順番に下から積み上げるイメージ
-            // ここの順番を仮に入れ替えると、文字が見えなくなる(文字が下にきてしまう為)
+            // ここの順番を仮に入れ替えると、文字が見えなくなる(TextがColorの下にきてしまう為、塗りつぶされる)
             Color.yellow
             Text("こんにちは")
         }

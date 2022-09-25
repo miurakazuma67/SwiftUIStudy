@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
  // SwiftUI 画面上でプレビュー確認できる
 struct SafeAreaContentView: View {
     var body: some View {
